@@ -3,7 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <title>Aprovados PF</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Font Awesome to icon in "Features"-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
 
     <!-- Google font -->
     <link
@@ -35,12 +41,6 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-
-    <!-- Font Awesome to icon in "Features"-->
-    <script
-      src="https://kit.fontawesome.com/da72c36252.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
 
   <body>
@@ -69,10 +69,10 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#footer">Quem somos</a>
+                <a class="nav-link" href="#features">Quem somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#pricing">Apoie a causa</a>
+                <a class="nav-link" href="galeria.html">Galeria de fotos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#footer">Contato</a>
@@ -104,33 +104,114 @@
 
     <section class="white-section" id="features">
       <div class="container-fluid">
-        <h2>Quem Somos</h2>
-        <p class="txt-whoWeAre">
-          Aprovados no concurso da Polícia Federal 2021. Somos 3.500 aprovados
-          entre 320.000 candidatos. Buscamos apoio para a convocação de TODOS os
-          aprovados, uma vez que até agora somente parte dos aprovados foram
-          convocados.
-        </p>
-
         <div class="row">
-          <div class="box col-md-4">
-            <i class="icon fas fa-check-circle fa-4x"></i>
-            <h3 feature-title>Baixo efetivo da Polícia Federal</h3>
-            <p>Somente 13.000 policiais federais para todo o Brasil.</p>
+          <div class="col-lg-6">
+            <img src="images/comissao3.png" class="img-comissao" alt="" />
           </div>
 
-          <div class="box col-md-4">
-            <i class="icon fas fa-bullseye fa-4x"></i>
-            <h3 feature-title>Previsão Orçamentária</h3>
-            <p>Dinheiro tem de sobra.</p>
-          </div>
+          <div class="col-lg-6">
+            <h2>Quem Somos?</h2>
 
-          <div class="box col-md-4">
-            <i class="icon fas fa-heart fa-4x"></i>
-            <h3 feature-title>Cuidado com o povo brasileiro</h3>
-            <p>O combate a corrupção só traz alegria</p>
+            <p class="txt-whoWeAre">
+              Somos a Comissão dos Aprovados no concurso da Polícia Federal de
+              2021.
+            </p>
+
+            <p class="txt-whoWeAre">
+              O certame bateu recorde com mais de 320.000 inscritos e a maior
+              nota de corte dos últimos 10 anos.
+            </p>
+
+            <p class="txt-whoWeAre">
+              Foram cerca de 3.400 aprovados em todas as fases da primeira etapa
+              - para provimento de 1.500 vagas regido pelo Edital nº 1 DGP/PF de
+              2021.
+            </p>
           </div>
         </div>
+
+        <div class="row space">
+          <div class="box col-md-4">
+            <i class="icon fa-solid fa-bullseye fa-4x"></i>
+            <h4 feature-title>Nosso objetivo</h4>
+            <p class="txt-icon">
+              Estamos trabalhando em prol da nomeação de todos os aprovados no
+              concurso da Polícia Federal 2021
+            </p>
+          </div>
+
+          <div class="box col-md-4">
+            <i class="icon fa-solid fa-users fa-4x"></i>
+            <h4 feature-title>Situação atual</h4>
+            <p class="txt-icon">
+              Dos aprovados, 2125 candidatos já foram convocados, restando a
+              convocação de 1.275 aprovados.
+            </p>
+          </div>
+
+          <div class="box col-md-4">
+            <i class="icon fa-solid fa-hourglass-half fa-4x"></i>
+
+            <h4 feature-title>Temos pouco tempo</h4>
+            <p class="txt-icon">
+              O edital do concurso tem validade até final de 2023, se não
+              conseguirmos convocar todos até lá, perderemos nossa vaga.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <!-- Testemunho Bolsonaro -->
+    <section class="colored-section" id="cta">
+      <div class="container">
+        <div class="row">
+          <div class="testimonial-PR">
+            <img
+              class="testimonial-image"
+              src="images/PR.jpg"
+              alt="Bolsonaro-foto"
+            />
+
+            <div>
+              <h2 class="testimonial-text txt-left">
+                "Eu falo com a economia para liberar 100% porque há interesse
+                econômico!"
+              </h2>
+              <p class="txt-left">
+                Jair Messias Bolsonaro, Presidente da República
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Testemunho MJ -->
+        <div class="row">
+          <div class="testimonial-PR">
+            <div>
+              <h2 class="testimonial-text txt-rigt">
+                "A nossa ideia, como eu sempre disse é chamar todos eles! É
+                extremamente justo o pleito deles. O estado brasileiro precisa!"
+              </h2>
+              <p class="txt-rigt">Anderson Torres, Ministro da Justiça</p>
+            </div>
+
+            <img
+              class="testimonial-image"
+              src="images/MJ2.jpg"
+              alt="AndersonTorres-foto"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Press -->
+
+    <section class="white-section" id="press">
+      <div class="container-fluid2">
+        <img src="images/image3.jpg" alt="" class="press-logo" />
       </div>
     </section>
 
@@ -138,92 +219,69 @@
     <!-- https://getbootstrap.com/docs/4.0/components/carousel/ -->
 
     <section class="colored-section" id="testimonials">
-      <div
-        id="carouselExampleControls"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active container-fluid">
-            <h2 class="testimonial-text">
-              "Eu falo com a economia para liberar 100% porque há interesse
-              econômico!"
-            </h2>
-            <img
-              class="testimonial-image"
-              src="images/PR.jpg"
-              alt="lady-profile"
-            />
-            <em class="txt--carousel"
-              >Jair Messias Bolsonaro, Presidente da República</em
-            >
+      <!-- Testimonials with Carousel -->
+      <!-- https://getbootstrap.com/docs/4.0/components/carousel/ -->
+
+      <section class="colored-section" id="testimonials">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active container-fluid">
+              <h2 class="testimonial-text">
+                "Eu falo com a economia para liberar 100% porque há interesse
+                econômico!"
+              </h2>
+              <img
+                class="testimonial-image"
+                src="images/PR.jpg"
+                alt="lady-profile"
+              />
+              <em class="txt--carousel"
+                >Jair Messias Bolsonaro, Presidente da República</em
+              >
+            </div>
+
+            <div class="carousel-item container-fluid">
+              <h2 class="testimonial-text">
+                "Eu falo com a economia para liberar 100% porque há interesse
+                econômico!"
+              </h2>
+              <img
+                class="testimonial-image"
+                src="images/PR.jpg"
+                alt="lady-profile"
+              />
+              <em class="txt--carousel"
+                >Jair Messias Bolsonaro, Presidente da República</em
+              >
+            </div>
           </div>
 
-          <div class="carousel-item container-fluid">
-            <h2 class="testimonial-text">
-              A nossa ideia, como eu sempre disse é chamar todos eles! É
-              extremamente justo o pleito deles. O estado brasileiro precisa!
-            </h2>
-            <img
-              class="testimonial-image"
-              src="images/MJ2.jpg"
-              alt="dog-profile"
-            />
-            <em class="txt--carousel">Anderson Torres, Ministro da Justiça</em>
-          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleControls"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-
-        <a
-          class="carousel-control-prev"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-
-        <a
-          class="carousel-control-next"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </section>
-
-    <!-- Press -->
-
-    <section class="colored-section" id="press">
-      <!-- <img class="press-logo" src="images/TechCrunch.png" alt="tc-logo" />
-      <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
-      <img
-        class="press-logo"
-        src="images/bizinsider.png"
-        alt="biz-insider-logo"
-      />
-      <img class="press-logo" src="images/mashable.png" alt="mashable-logo" /> -->
-    </section>
-
-    <!-- Pricing with Cards-->
-    <!-- https://getbootstrap.com/docs/4.0/components/card/ -->
-
-    <section class="white-section" id="pricing">
-      <img src="images/image3.jpg" alt="" class="image3" />
-    </section>
-
-    <!-- Call to Action -->
-
-    <section class="colored-section" id="cta">
-      <div class="container-fluid">
-        <h3 class="cta-heading">
-          Quem investe na Polícia Federal apoia o combate à corrupção.
-        </h3>
-      </div>
+      </section>
     </section>
 
     <!-- Footer -->
@@ -231,15 +289,16 @@
     <footer class="white-section" id="footer">
       <div class="container-fluid">
         <a href="https://twitter.com/aprovadospf21?s=21" target="_blank"
-          ><i class="ico fab fa-twitter fa-2x"></i
+          ><i class="ico fab fa-twitter fa-lg"></i
         ></a>
         <a href="https://www.instagram.com/aprovados_pf2021/" target="_blank"
-          ><i class="ico fab fa-instagram fa-2x"></i
+          ><i class="ico fab fa-instagram fa-lg"></i
         ></a>
-        <a href="mailto:"><i class="ico fas fa-envelope fa-2x"></i></a>
-        <a href=""
-          ><i class="ico fa fa-telegram fa-2x" aria-hidden="true"></i
-        ></a>
+        <a href="">
+          <a href="https://t.me/joinchat/Q1SJRsfZjYljYjAx"
+            ><i class="ico fab fa-telegram fa-lg" aria-hidden="true"></i
+          ></a>
+        </a>
         <p>© Copyright 2022 Comissão dos Aprovados PF-21</p>
       </div>
     </footer>
