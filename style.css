@@ -97,11 +97,6 @@ a.navbar-brand {
 
 /* Features */
 
-#features {
-  position: relative;
-  z-index: 1;
-}
-
 .feature-title {
   font-size: 10px;
 }
@@ -117,7 +112,7 @@ a.navbar-brand {
 }
 
 div.box {
-  padding: 5%;
+  padding: 2%;
   font-size: 0.9rem;
 }
 
@@ -169,7 +164,7 @@ div.box {
 }
 
 .press-logo {
-  width: 60%;
+  width: 45%;
 }
 
 .carousel-inner {
