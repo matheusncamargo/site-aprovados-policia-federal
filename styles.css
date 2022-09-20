@@ -154,7 +154,7 @@ div.box {
 .testimonial-image {
   width: 13%;
   border-radius: 10%;
-  margin: 30px;
+  margin: 3%;
 }
 
 /* Press */
@@ -205,6 +205,61 @@ div.box {
 
   #title {
     text-align: center;
+  }
+
+  #cta {
+    padding: 5%;
+  }
+
+  .testimonial-PR {
+    margin-bottom: 7%;
+  }
+
+  .testimonial-image {
+    width: 25%;
+  }
+
+  .testimonial-text {
+    font-size: 30px;
+  }
+
+  .navbar-brand {
+    font-size: 1.8rem !important;
+  }
+  a.nav-link {
+    font-size: 1.8rem;
+    font-family: "Montserrat-light";
+  }
+
+  .big-heading {
+    text-transform: uppercase;
+  }
+
+  .txt-icon {
+    font-size: 1.3rem;
+  }
+
+  .txt-whoWeAre {
+    font-size: 1.5rem;
+  }
+
+  .img2-comissao {
+    margin-bottom: 5%;
+  }
+
+  #footer {
+    padding: 5%;
+    font-size: 1.2rem;
+  }
+
+  .author {
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-top: 4%;
+  }
+
+  .testimonial-image {
+    margin: 5%;
   }
 }
 
