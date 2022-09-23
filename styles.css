@@ -66,7 +66,7 @@ a.nav-link {
 
 a.navbar-brand {
   font-family: "Ubuntu";
-  font-size: 1.5rem;
+  font-size: 2.25rem !important;
   font-weight: bold;
 }
 
@@ -97,10 +97,6 @@ a.navbar-brand {
 
 /* Features */
 
-.feature-title {
-  font-size: 10px;
-}
-
 .space {
   margin-top: 30px;
   margin-bottom: 0;
@@ -108,7 +104,6 @@ a.navbar-brand {
 
 .txt-icon {
   font-size: 16px;
-  text-justify: inter-word;
 }
 
 div.box {
@@ -232,11 +227,12 @@ div.box {
   }
 
   .txt-icon {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
+    text-align: left;
   }
 
   .txt-whoWeAre {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 
   .img2-comissao {
@@ -245,7 +241,7 @@ div.box {
 
   #footer {
     padding: 5%;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .author {
@@ -256,6 +252,10 @@ div.box {
 
   .testimonial-image {
     margin: 5%;
+  }
+
+  h4 {
+    font-size: 2rem !important;
   }
 }
 
@@ -269,4 +269,14 @@ img {
   box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
   border-radius: 12px;
   margin-bottom: 2%;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='46' height='46' viewBox='0 0 24 24' fill='none' stroke='%23f1b642' stroke-width='2' stroke-linecap='round' stroke-linejoin='bevel' %3E%3Cline x1='3' y1='12' x2='21' y2='12'%3E%3C/line%3E%3Cline x1='3' y1='6' x2='21' y2='6'%3E%3C/line%3E%3Cline x1='3' y1='18' x2='21' y2='18'%3E%3C/line%3E%3C/svg%3E");
+}
+.custom-toggler.navbar-toggler {
+  border-color: rgb(241, 182, 66);
+}
+
+.menuBar {
+  border: 1px solid rgb(241, 182, 66);
 }
