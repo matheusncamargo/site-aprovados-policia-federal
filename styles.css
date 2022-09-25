@@ -218,21 +218,25 @@ div.box {
     font-size: 1.8rem !important;
   }
   a.nav-link {
-    font-size: 1.8rem;
+    font-size: 2.3rem;
     font-family: "Montserrat-light";
   }
 
   .big-heading {
     text-transform: uppercase;
   }
-
+  /*Font Size*/
   .txt-icon {
-    font-size: 1.7rem;
+    font-size: 2.1rem;
     text-align: left;
   }
 
   .txt-whoWeAre {
-    font-size: 1.7rem;
+    font-size: 2.2rem;
+  }
+
+  .feature-title {
+    font-size: 2.5rem;
   }
 
   .img2-comissao {
@@ -252,10 +256,6 @@ div.box {
 
   .testimonial-image {
     margin: 5%;
-  }
-
-  h4 {
-    font-size: 2rem !important;
   }
 }
 
