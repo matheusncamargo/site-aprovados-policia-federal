@@ -31,8 +31,17 @@ div.container-fluid2 {
 .testimonial-PR {
   display: flex;
   align-items: center;
-  text-align: center;
+  margin-top: 4%;
+}
+
+.testimonial3 {
+  align-self: flex-start;
+}
+
+.testimonial-MJ {
+  display: flex;
   margin-bottom: 3%;
+  margin-top: 2%;
 }
 
 .txt-rigt {
@@ -103,7 +112,7 @@ a.navbar-brand {
 }
 
 .txt-icon {
-  font-size: 16px;
+  font-size: 1.1rem;
 }
 
 div.box {
@@ -136,6 +145,7 @@ div.box {
 .testimonial-text {
   font-size: 1.5rem;
   line-height: 1.5;
+  align-self: flex-start;
 }
 
 .txt-left {
@@ -150,6 +160,8 @@ div.box {
   width: 13%;
   border-radius: 10%;
   margin: 3%;
+  margin-top: 0;
+  /* align-self: flex-start; */
 }
 
 /* Press */
@@ -179,10 +191,6 @@ div.box {
   color: black;
 }
 
-#footer .container-fluid {
-  padding: 3% 3%;
-}
-
 /* Media */
 
 @media (max-width: 1028px) {
@@ -199,11 +207,7 @@ div.box {
   }
 
   #cta {
-    padding: 5%;
-  }
-
-  .testimonial-PR {
-    margin-bottom: 7%;
+    padding: 7% 3%;
   }
 
   .testimonial-image {
@@ -243,19 +247,30 @@ div.box {
     margin-bottom: 5%;
   }
 
-  #footer {
-    padding: 5%;
+  #footer div.container-fluid2 {
+    padding: 7%;
     font-size: 1.4rem;
   }
 
   .author {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-style: italic;
     margin-top: 4%;
   }
 
+  div.container-fluid {
+    padding-bottom: 20%;
+  }
+
   .testimonial-image {
-    margin: 5%;
+    width: 30%;
+    border-radius: 10%;
+    margin: 3%;
+    margin-top: 0;
+  }
+
+  .testimonial-PR {
+    margin-bottom: 5%;
   }
 }
 
